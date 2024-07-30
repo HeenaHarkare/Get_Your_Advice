@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   background-image: url('https://static.vecteezy.com/system/resources/previews/033/692/507/non_2x/flowers-composition-on-pink-background-flat-lay-top-view-copy-space-mothers-day-spring-flowers-with-copy-space-ai-generated-free-photo.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+    text-align: center;
+}
+.container h1{
+    padding-top: 2rem;
+    color:#694F8E;
+    font-family:Lucida Handwriting;
+}
+.button-design{
+    height: 4rem;
+    width: 13rem;
+    padding: 0.8rem;
+    margin-top: 4rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: #B692C2;
+    color: white ;
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: 1s ease;
+    cursor: pointer;
+}
+.button-design:hover{
+    background-color: #694F8E;
+    transform: scale(1.2);
+}
+.box{
+    margin: 4% auto;
+    background-color:#E3A5C7;
+    width: 60%;
+    height: 40vh;
+    padding: 8rem;
+    color: white;
+    border-radius: 2rem;
+   
+}
+#advice-container:hover, #advice-count:hover{
+    transform: scale(1.1);
+    
+}
+#advice-count{
+    padding-top: 2rem;
+}
